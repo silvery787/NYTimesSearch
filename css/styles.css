@@ -1,0 +1,49 @@
+body {
+	line-height: 1.5;
+}
+.my_header {
+	background: #03396b;
+	height: 150px;
+	border-radius: 5px;
+	margin-bottom: 40px;
+}
+#logo {
+	height: 55px;
+	margin-bottom: 10px;
+}
+#form-logo, #list-logo {
+	width: 25px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+}
+h1 {
+	font-size: 65px;
+	color: white;
+	padding-top: 30px;
+	text-align: center;
+}
+.btn-logo {
+	width: 25px;
+	margin-right: 5px;
+	cursor: arrow;
+}
+.card {
+	margin-bottom: 25px;
+}
+.result-article {
+	border-radius: 3px;
+	background: #e9f8e1;
+	padding: 12px;
+	padding-top : 20px;
+}
+.article {
+	border: 0px;
+	border-radius: 3px;
+	background: #e9f8e1;
+	padding: 12px;
+	padding-top : 20px;
+	margin-bottom: 10px;
+}
+.badge {
+	margin-right: 5px;
+}

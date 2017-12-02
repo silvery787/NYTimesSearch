@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>NY Times search</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+
+<body>
+	<div class="container wrapper">
+
+		<div class="container-fluid my_header">
+			<h1><img id="logo" src="img/newspaper-logo.png"> New York Times Search</h1>
+		</div>
+
+		<div class="card">
+			<h4 class="card-header bg-dark text-white"><img id="form-logo" src="img/form.png">Search parameters</h4>
+			<div class="card-body">
+
+	    		<form id="search-form">
+	    			<div class="form-group">
+			        	<label for="article-title">Search Term:</label>
+			        	<input type="text" class="form-control" id="article-title">
+					</div>
+					<div class="form-group">
+				        <label for="article-records">Number of Records to Retrieve:</label>
+				        <input type="number" class="form-control" id="article-records" value="10">
+					</div>
+					<div class="form-group">
+				        <label for="start_date">Start Date (Optional)</label>
+				        <input type="date" class="form-control" id="start_date">
+					</div>
+					<div class="form-group">
+				        <label for="end_date">End Date (Optional)</label>
+			    	    <input type="date" class="form-control" id="end_date">
+			    	</div>
+			      		<!-- This button will trigger our AJAX call -->
+			        <button id="btn-search" class="btn btn-secondary"><img class="btn-logo" src="img/search.png">Search</button>
+			        <button id="btn-clear" class="btn btn-secondary"><img class="btn-logo" src="img/trash.png">Clear Results</button>
+		    	</form>	
+		    </div>		
+		</div>
+	
+		<div class="card">
+			<h4 class="card-header bg-dark text-white"><img id="list-logo" src="img/list.png">Top Articles</h4>
+			<div class="card-body">
+				<ul class="list-group" id="result"></ul>				
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="js/search.js">
+
+			
+
+	</script>
+</body>
+</html>
