@@ -82,7 +82,7 @@ $("#btn-search").on("click", function(){
 
 	if(query){
 		query = query.trim();
-		url += "http://api.nytimes.com/svc/search/v2/articlesearch.json?q=" +query+" &api-key=3bf2cf798ca747aebaa31784f90aa7f4";	
+		url += "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=" +query+" &api-key=3bf2cf798ca747aebaa31784f90aa7f4";	
 
 		if(start){
 			url += "&begin_date"+start;
